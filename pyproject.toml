@@ -1,0 +1,33 @@
+[project]
+name = "pytools_litho_analysis"
+version = "0.0.1"
+authors = [
+    { name = "Nynra", email = "nynradev@pm.me" },
+    { name = "Emma Bajmat" },
+]
+description = "Some usefull functions for SEM image analysis of lithograpy designs."
+readme = { file = "README.txt", content-type = "text/markdown" }
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "pandas",
+    "scipy",
+    "easyocr",
+    "matplotlib",
+    "pytools_image_processing @ git+https://github.com/Nynra/pytools-image-processing.git@0.2.1",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: MIT License",
+]
+license = { text = "MIT License" }
+
+[project.urls]
+Homepage = "https://github.com/Nynra/pytools-litho-analysis"
+Issues = "https://github.com/Nynra/pytools-litho-analysis/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
