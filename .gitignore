@@ -12,6 +12,17 @@ dev
 html
 unused
 
+# Image files
+analysis_images/*.tif
+analysis_images/*.tiff
+analysis_images/*.png
+analysis_images/*.jpg
+analysis_images/*.jpeg
+analysis_images/*.gif
+analysis_images/*.svg
+analysis_images/*.bmp
+analysis_images/*.ico
+
 # C extensions
 *.so
 
