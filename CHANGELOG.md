@@ -19,3 +19,17 @@ All notable changes to this project will be documented in this file. This projec
 
 - Moved the step fitting functions to a seperate module.
 - Updated the `pytools-image-analysis` package to version 0.2.1.
+
+## [0.0.2] - 2025-03-25
+
+### Changed
+
+- Updated the `pytools-image-analysis` package to version 0.2.2.
+- Moved some functions around to a more logical place.
+
+## [0.0.3] - 2025-03-25
+
+### Changed
+
+- Bumped the setuptools version to 77
+- Updated the license info in the project file
