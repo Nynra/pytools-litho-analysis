@@ -48,3 +48,13 @@ are horizontal and crop off the ends of the lines.
 ## Resources
 
 * [EasyOCR tutorial](https://medium.com/@adityamahajan.work/easyocr-a-comprehensive-guide-5ff1cb850168)
+
+## Interesting resources for future updates
+
+* [Summary repo for other exploratory data analysis projects](https://github.com/xiaodaigh/awesome-eda)
+* [Mixed waver type defect regognition](https://github.com/PanithanS/Wafers-Defect-Recognition-using-Visual-Transformer)
+* [Defect prediction in litho designs](https://github.com/PanithanS/Defect-Prediction-in-Semiconductor-Lithography)
+* [Data analytics and machine learning for lithography](https://github.com/jpcain/data-analytics-machine-learning)
+* [LithoLab](https://github.com/hunterjreid/LithoLab)
+* [General AFM litho](https://github.com/akashlevy/General-AFM-Lithography)
+* [Reading AFM image formats](https://github.com/AFM-SPM/AFMReader)
