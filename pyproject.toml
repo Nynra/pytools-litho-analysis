@@ -15,7 +15,7 @@ dependencies = [
     "scipy",
     "easyocr",
     "matplotlib",
-    "pytools_image_processing @ git+https://github.com/Nynra/pytools-image-processing.git@0.2.1",
+    "pytools_image_processing @ git+https://github.com/Nynra/pytools-image-processing.git@0.2.2",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
