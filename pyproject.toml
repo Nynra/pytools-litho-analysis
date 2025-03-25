@@ -6,7 +6,7 @@ authors = [
     { name = "Emma Bajmat" },
 ]
 description = "Some usefull functions for SEM image analysis of lithograpy designs."
-readme = { file = "README.txt", content-type = "text/markdown" }
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
@@ -20,14 +20,14 @@ dependencies = [
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
-    "License :: MIT License",
 ]
-license = { text = "MIT License" }
+license = "MIT"
+license-files = ["LICENSE"]
 
 [project.urls]
 Homepage = "https://github.com/Nynra/pytools-litho-analysis"
 Issues = "https://github.com/Nynra/pytools-litho-analysis/issues"
 
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0"]
 build-backend = "setuptools.build_meta"
