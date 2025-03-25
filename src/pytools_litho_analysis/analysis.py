@@ -6,12 +6,6 @@ import os
 from typing import Tuple
 from .step_functions import fit_block_step
 
-# Not used here but still imported for easy access by the end user
-# (these modules are now importable from this file)
-from pytools_image_processing.segmentation import (
-    get_bounding_rect,
-)
-
 
 def calculate_profile_psd(
     profile: np.ndarray, dx: float, use_window: bool = True, show_steps: bool = False

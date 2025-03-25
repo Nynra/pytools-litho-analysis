@@ -1,13 +1,13 @@
 [project]
 name = "pytools_litho_analysis"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
     { name = "Nynra", email = "nynradev@pm.me" },
     { name = "Emma Bajmat" },
 ]
 description = "Some usefull functions for SEM image analysis of lithograpy designs."
 readme = { file = "README.txt", content-type = "text/markdown" }
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "opencv-python",
